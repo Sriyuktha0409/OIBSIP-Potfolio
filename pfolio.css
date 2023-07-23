@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+header li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+#d{
+    position: fixed;
+    width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(38, 37, 38);
+}
+#title{
+    margin-right: auto;
+    font-size: 30px;
+    color: rgb(245, 242, 242);
+    text-shadow:0 0 5px #00aeff, 0 0 10px #ff00bf;
+}
+header a{
+    text-decoration: none;
+    color: #eadb06;
+    font-size: larger;
+}
+header a:hover{
+    color: #0edac6;
+}
+#d1{
+    background: url("https://images.unsplash.com/photo-1502790671504-542ad42d5189?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5pZ2h0JTIwaGlsbHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80") no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+}
+.d2{
+    padding: 50px;
+    text-align: center;
+    color: rgb(194, 192, 192);
+    text-shadow:0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+#a2{
+    font-size: larger;
+    background-color: #0edac6;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+}
+h2{
+    color: rgb(238, 27, 27);
+    text-shadow:0 0 3px #c5bbbb, 0 0 5px #7cd353;
+}
+h3{
+    color: rgb(125, 4, 172);
+    font-weight: bold;
+    font-size: larger;
+    text-shadow:0 0 3px #2753d8, 0 0 5px #da2086;
+}
+#i1{
+    width: 240px;
+    height:350px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 3px 3px black;
+}
+#d3{
+    background-image: url("https://cdn.wallpapersafari.com/80/65/kNA35n.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d4{
+    padding: 50px;
+}
+#p1{
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+.d5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: rgb(228, 253, 3);
+}
+.d6{
+    width: 100%;
+    background-color: #979292;
+    border-radius: 10px;
+    margin: 10px;
+}  
+.skill {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 10px;
+    background-color: #2366be;
+} 
+.html{
+    width: 90%;
+}    
+.css{
+    width: 80%;
+}
+.c{
+    width: 75%;
+}
+.pyt{
+    width: 70%; 
+}
+.js{
+    width: 65%;
+}
+.d7{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.d8{
+    width: 300px;
+    height: 270px;
+    padding: 20px;
+    background-color:#817e86 ;
+    text-align: center;
+    margin: 10px;
+    color: rgb(13, 9, 250);
+    box-shadow: 3px 3px #a3a0a7;
+    border: 1px solid #cbabfd ;
+    border-radius: 10px;
+}
+.d8:hover{
+    transform: scale(1.1);
+}
+#a1{
+    text-decoration: none;
+    color: darkgreen;
+    padding: 5px;
+    background-color: rgb(175, 190, 144);
+    border-radius: 5px;
+    font-weight: bold;
+}
+#a1:hover{
+    background-color: rgb(189, 56, 67);
+}
+.d9{
+    margin:50px 50px 0px;
+    text-align: center;
+}
+#d10{
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?b=1&s=612x612&w=0&k=20&c=gxvFaSo4attQ1jO45PET0SCOX7ZxpEknCACW9bEutgw=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+.d11{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.d12{
+    width: 320px;
+    height: 90px;
+    margin: 10px;
+    border: 2px solid #c193f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #af8de6;
+    font-size: large;
+    transform: scale(1.1);
+    color: aliceblue;
+}
+.d13{
+    width: 300px;
+    height: 220px;
+    margin: 10px;
+    border: 2px solid #cdb5eb;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #c2a9eb;
+    font-size: large;
+    transform: scale(1.1);
+}
+#p2{
+    font-size: larger;
+    color: rgb(213, 212, 232);
+}
+.d3{
+    color: #0edac6;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 72px;
+    width: 350px;
+    height: 400px;
+}

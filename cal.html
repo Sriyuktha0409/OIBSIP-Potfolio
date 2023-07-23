@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+      body{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         background-color: rgb(86, 85, 86);
+      }
+      .d1{
+         border: 2px solid black;
+         height: 400px;
+         width: 400px;
+         padding: 10px;
+         background-color: rgb(57, 62, 68);
+         border-radius: 10px;
+      }
+      .d2{
+         padding: 10px;
+      }
+      #res{
+         width: 290px;
+         height: 70px;
+         padding-right:10px ;
+         font-weight: bold;
+         font-size: larger;
+         font-family: cursive;
+         border-radius: 10px;
+         background-color: lightcyan;
+         text-align: right;
+      }
+      #c{
+         width: 70px;
+         height:70px;
+         font-weight: bold;
+         font-size: larger;
+         font-family: cursive;
+         background-color: black;
+         border-radius: 10px;
+         color: white;
+      }
+      .d3{
+         padding: 12px;
+      }
+      .d3 input[type='button']{
+         width: 80px;
+         height:60px;
+         margin: 5px;
+         background-color: rgb(0, 0, 0);
+         font-weight: bold;
+         font-size: larger;
+         font-family: cursive;
+         border-radius: 10px;
+         color: white;
+      }
+      .d3 input[type='button']:hover{
+         transform: scale(1.1);
+         background-color: rgb(125, 120, 123);
+      }
+   </style> 
+   <script>
+      function Solve(val) {
+         var v = document.getElementById('res');
+         v.value += val;
+      }
+      function Result() {
+         var num1 = document.getElementById('res').value;
+         var num2 = eval(num1);
+         document.getElementById('res').value = num2;
+      }
+      function Clear() {
+         var inp = document.getElementById('res');
+         inp.value = '';
+      }
+   </script>
+   <title>Calulator</title>
+</head>
+<body>
+   <div class="d1">
+        <div class="d2">
+            <input type="text" id = 'res'> 
+            <input type="button" value = 'C' id="c" onclick = "Clear()">
+        </div>
+        <div class="d3">
+            <input type="button" value = '7' onclick = "Solve('7')">
+            <input type="button" value = '8' onclick = "Solve('8')">
+            <input type="button" value = '9' onclick = "Solve('9')">
+            <input type="button" value = 'x' onclick = "Solve('*')">
+            <br>
+            <input type="button" value = '4' onclick = "Solve('4')">
+            <input type="button" value = '5' onclick = "Solve('5')">
+            <input type="button" value = '6' onclick = "Solve('6')">
+            <input type="button" value = '-' onclick = "Solve('-')">
+            <br>
+            <input type="button" value = '1' onclick = "Solve('1')">
+            <input type="button" value = '2' onclick = "Solve('2')">
+            <input type="button" value = '3' onclick = "Solve('3')">
+            <input type="button" value = '+' onclick = "Solve('+')">
+            <br>
+            <input type="button" value = '0' onclick = "Solve('0')">
+            <input type="button" value = '.' onclick = "Solve('.')">
+            <input type="button" value = '=' onclick = "Result()">
+            <input type="button" value = '/' onclick = "Solve('/')">
+        </div>
+   </div>
+</body>
+</html>
