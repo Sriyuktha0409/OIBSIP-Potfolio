@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Camphor Pro VF', 'Camphor Pro', sans-serif;
+        }
+        header li{
+            list-style: none;
+            display: inline-block;
+            padding: 0 20px;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            box-shadow: 2px 2px rgb(243, 241, 241); 
+        }
+        #nav-title{
+            margin-right: auto;
+            font-size: 35px;
+            color: coral;
+        }
+        header a{
+            text-decoration: none;
+            color: #555;
+        }
+        header a:hover{
+            color: #da520e;
+        }
+        #s1{
+            background-color: coral;
+            padding: 10px;
+            border-radius: 5px;
+            color: black;
+        }
+        #s1:hover{
+            color: blue;
+        }
+        h1{
+            padding: 10px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: lighter;
+        }
+        .d1{
+            display: flex;
+            justify-content: space-between;
+            margin: 30px;
+            flex-wrap: wrap;
+        }
+        #a1{
+            text-decoration: none;
+            color: coral;
+            font-weight: bold;
+        }
+        img{
+            width:320px;
+            height:320px;
+            padding-bottom: 5px;
+        }
+        .d2{
+            width: 400px;
+            height: 400px;
+            padding: 20px;
+            border: 1px;
+            text-align: center;
+            background-color: rgb(244, 243, 243);
+            margin: 10px;
+        }
+        .d1>* {
+            flex: 1 1 160px;
+        }
+        .d2:hover{
+            box-shadow: 2px 2px 2px 2px rgb(207, 203, 203);
+            transform: scale(1.05);
+        }
+        #a2{
+            float: right;
+            font-size: larger;
+            text-decoration: none;
+        }
+        #a2:hover{
+            color: black;
+        }
+        #a3{
+            color: white;
+            font-weight: bold;
+            font-size: large;
+        }
+        footer{
+            background-color: rgb(25, 25, 25);
+            color: white;
+            padding: 20px;
+        }
+        .d3{
+            display: flex;
+            justify-content: space-between;
+        }
+        footer li{
+            list-style: none;
+        }
+        .u1 a{
+            color: rgb(191, 188, 188);
+            text-decoration: none;
+        }
+        a:hover{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="nav-title">XIAOMI</h1>
+        <nav>
+            <ul>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">BUY NOW</a></li>
+                <li><a href="#" id="s1">SIGN IN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Explore Products</h1>
+    <div class="d1">
+        <div class="d2">
+            <img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Xiaomi_13_pro_1.jpg">
+            <h2>XIAOMI 13 Pro</h2>
+            <caption>Behind the masterpiece</caption><br>
+            <a href="#" id="a1">View></a>
+        </div>
+        <div class="d2">
+            <img src="https://i02.appmifile.com/827_item_mx/04/05/2023/455f39fabe77684ad5950c7592e3e31c.jpg">
+            <h2>XIAOMI TV A Pro 55</h2>
+            <caption>Smart life</caption><br>
+            <a href="#" id="a1">View></a>
+        </div>
+        <div class="d2">
+            <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/3/19/f8ba5695-1538-435b-b9cd-787c1b75c2dc.jpg.webp">
+            <h2>Redmi Watch 3</h2>
+            <caption>Wear your best self</caption><br>
+            <a href="#" id="a1">View></a>
+        </div>
+        <div class="d2">
+            <img src="https://cdn.shopify.com/s/files/1/0327/6469/0569/products/IP6D1184J.jpg?v=1663602805">
+            <h2>Xiaomi Buds 4 Pro</h2>
+            <caption>Immersive in every way</caption><br>
+            <a href="#" id="a1">View></a>
+        </div>
+        <div class="d2">
+            <img src="https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/x/i/xiaomi_mi_gaming_notebook-1_1.jpg">
+            <h2>Xiaomi Mi Gaming NoteBook </h2>
+            <caption>Productivity meets versatility</caption><br>
+            <a href="#" id="a1">View></a>
+        </div>
+        <div class="d2">
+            <img src="https://www.jibalzone.com/media/1636/conversions/6231eabdee3f4_Website-Product-Size-(1)-Recovered-Recovered-Recovered-Recovered-slider.jpg">
+            <h2>Mi Camera 2K Magnetic Mount</h2>
+            <caption>Compact Design,ultra clear</caption><br>
+            <a href="#" id="a1">View></a>
+        </div>
+    </div>
+    <a id="a2" href="#">Explore more....></a>    
+    <br><br>
+    <footer>
+        <div class="d3">
+            <div class="d4" id="b1">
+                <ul class="u1">
+                    <li id="a3">ABOUT US</li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Service Quality</a></li>
+                    <li><a href="#">Corporate Information</a></li>
+                </ul>
+            </div>
+            <div class="d4" id="b2">
+                <ul class="u1">
+                    <li id="a3">SUPPORT</li>
+                    <li><a href="#">Online help</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Warrenty</a></li>
+                </ul>
+            </div>
+            <div class="d4">
+                <ul class="u1" id="b3">
+                    <li id="a3">RETAIL STORE</li>
+                    <li><a href="#">Mi Home</a></li>
+                    <li><a href="#">Mi Authorized Store</a></li>
+                    <li><a href="#">Mi Store Franchise</a></li>
+                </ul>
+            </div>
+            <div class="d4">
+                <ul class="u1" id="b4">
+                    <li id="a3">SHOP</li>
+                    <li><a href="#">Xiaomi Phones</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Smart Home</a></li>
+                </ul>
+            </div>
+        </div><br><br>
+        <hr><br><br>
+        <p align="center">&copy; Copyright-All Rights Reserved</p>
+    </footer>
+</body>
+</html>
